@@ -1,6 +1,0 @@
-
-
-1. 브라우저 꺼짐 방지 옵션
-chrome_options = Options()
-chrome_options.add_experimental_option("detach", True)
-driver = webdriver.Chrome(service=service, options=chrome_options)  # 매개변수에 "service=service, options=chrome_options" 추가
